@@ -1,0 +1,27 @@
+.hContainer{
+    padding-bottom: 40px;
+}
+
+.cList{
+    list-style: none;
+    border: 1px solid var(--primary-dark);
+    border-radius: var(--radii-sm);
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px;
+}
+
+.cItem{
+    display: flex;
+    gap:10px;
+    padding: 5px;
+
+    .cFrom{
+        color: var(--primary);
+    }
+
+    .cTo{
+        color: var(--secondary);
+        padding-right: 15px;
+    }
+}
